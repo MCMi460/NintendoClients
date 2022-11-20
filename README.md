@@ -1,3 +1,6 @@
+The only difference this branch has is that it uses [anynet w/o netifaces](https://github.com/MCMi460/anynet/tree/w/o-netifaces) so that it works on aarch64 servers (netifaces is old and unmaintained)  
+It does this via a specific version number that hopefully only I will use: `v0.0.277`.
+
 # Nintendo Clients
 > :warning: Keep in mind that Nintendo is actively banning Switch devices. This package tries to mimic the behavior of a real Switch as closely as possible, but using it is at your own risk. Make sure that you know what you are doing.
 
